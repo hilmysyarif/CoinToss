@@ -1,0 +1,43 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+    <style type="text/css">
+		body {
+			background-color: #fff;
+			color: #000;
+			text-align: center;
+		}
+		
+		img {
+			text-align: center;
+		}
+	</style>
+<title>CoinToss</title>
+<script>
+var CoinToss = function() {
+    var side = Math.random();
+    if (side <0.50 ){
+    side= "tails.png";
+    } else if (side >0.50 ){
+        side= "heads.png";
+    } else {
+        side = "edge.png";}
+        return side;
+}; 
+var TossCoin = function() {
+	setTimeout(function() {document.images[0].src = "coin.gif";},500);
+	setTimeout(function() {document.images[0].src = CoinToss();},3000);
+//	document.images[0].src = CoinToss();
+	}
+	</script>
+</head>
+<body>
+<p>
+   <img src="coin.png" alt="Tap to Toss"
+   onclick="TossCoin()" />
+</p>
+</form> 
+</body>
+</html>
