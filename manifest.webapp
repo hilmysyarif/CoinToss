@@ -1,13 +1,14 @@
 {
-  "name": "CoinToss",
-  "description": "A simple app to toss a coin, maybe it could help with decision making.",
-  "launch_path": "/",
-  "icons": {
-    "150": "/coin.png"
-  },
-  "developer": {
-    "name": "maqist",
-    "url": "https://maqist.net"
-  },
-  "default_locale": "en"
+    "name": "CoinToss",
+    "description": "A simple app to toss a coin, maybe it could help with decision making.",
+    "launch_path": "/index.html",
+    "icons": {
+        "60": "/60coin.png",
+        "150": "/coin.png"
+    },
+    "version": "0.1",
+    "developer": {
+        "name": "maqist",
+        "url": "https://maqist.net"
+    }
 }
