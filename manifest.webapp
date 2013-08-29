@@ -3,6 +3,7 @@
     "description": "A simple app to toss a coin, maybe it could help with decision making.",
     "launch_path": "/index.html",
     "icons": {
+        "30": "/30coin.png",
         "60": "/60coin.png",
         "150": "/coin.png"
     },
