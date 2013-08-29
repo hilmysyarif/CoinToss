@@ -5,9 +5,10 @@
     "icons": {
         "30": "/30coin.png",
         "60": "/60coin.png",
-        "150": "/coin.png"
+        "128": "/128coin.png",
+        "200": "/coin.png"
     },
-    "version": "0.1",
+    "version": "0.2",
     "developer": {
         "name": "maqist",
         "url": "https://maqist.net"

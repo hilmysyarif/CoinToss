@@ -1,0 +1,2 @@
+0.2 Changed coin graphic to Florin photo.
+0.1 First Edition.
