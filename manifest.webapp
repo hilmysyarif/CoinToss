@@ -5,7 +5,7 @@
     "icons": {
         "30": "/30coin.png",
         "60": "/60coin.png",
-        "128": "/128coin.png",
+        "128": "/128coin.png"
     },
     "version": "0.3",
     "developer": {
